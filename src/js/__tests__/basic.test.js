@@ -37,7 +37,7 @@ test('Should convert to string', () => {
     health: 100,
     level: 1,
     name: '123',
-    protection: 25,
+    defence: 25,
     type: 'Bowerman',
   });
 });
@@ -46,7 +46,7 @@ test('Should be Bowerman', () => {
   const player = new Bowerman('Name', 'Bowerman');
   expect(player).toEqual({
     attack: 25,
-    protection: 25,
+    defence: 25,
     health: 100,
     level: 1,
     name: 'Name',
@@ -58,7 +58,7 @@ test('Should be Swordsman', () => {
   const player = new Swordsman('Name', 'Swordsman');
   expect(player).toEqual({
     attack: 40,
-    protection: 10,
+    defence: 10,
     health: 100,
     level: 1,
     name: 'Name',
@@ -70,7 +70,7 @@ test('Should be Magician', () => {
   const player = new Magician('Name', 'Magician');
   expect(player).toEqual({
     attack: 10,
-    protection: 40,
+    defence: 40,
     health: 100,
     level: 1,
     name: 'Name',
@@ -82,7 +82,7 @@ test('Should be Undead', () => {
   const player = new Undead('Name', 'Undead');
   expect(player).toEqual({
     attack: 25,
-    protection: 25,
+    defence: 25,
     health: 100,
     level: 1,
     name: 'Name',
@@ -94,7 +94,7 @@ test('Should be Zombie', () => {
   const player = new Zombie('Name', 'Zombie');
   expect(player).toEqual({
     attack: 40,
-    protection: 10,
+    defence: 10,
     health: 100,
     level: 1,
     name: 'Name',
@@ -106,7 +106,7 @@ test('Should be Daemon', () => {
   const player = new Daemon('Name', 'Daemon');
   expect(player).toEqual({
     attack: 10,
-    protection: 40,
+    defence: 40,
     health: 100,
     level: 1,
     name: 'Name',
