@@ -4,7 +4,6 @@ import Magician from './magician';
 import Daemon from './daemon';
 import Undead from './undead';
 import Zombie from './zombie';
-import Character from './character';
 
 const bowerman = new Bowerman('Player1', 'Bowerman');
 const swordsman = new Swordsman('Player2', 'Swordsman');
